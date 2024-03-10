@@ -1,0 +1,9 @@
+name = "rate-limiting-demo"
+main = "src/index.js"
+compatibility_date = "2024-03-08"
+
+[[unsafe.bindings]]
+name = "RATE_LIMITER"
+type = "ratelimit"
+namespace_id = "1001"
+simple = { limit = 2, period = 60 }
